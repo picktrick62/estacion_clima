@@ -1,0 +1,9 @@
+{
+  "latitude": 19.43,
+  "longitude": -99.13,
+  "current_weather": {
+    "temperature": 22.5,
+    "windspeed": 8.3,
+    "weathercode": 1
+  }
+}

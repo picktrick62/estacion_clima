@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #1636b6, #0acde3);
+  min-height: 100vh;
+  padding: 2rem;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+#loading {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 2rem;
+}
+
+#loading.oculto {
+  display: none;
+}
+
+#clima-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.clima-card {
+  background: rgba(36, 77, 105, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.clima-card .ciudad {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+.clima-card .temperatura {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #ffd700;
+}
+
+.clima-card .descripcion {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.85;
+}
+
+.clima-card .detalles {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 1.5rem;
+}
+
+.clima-card .detalle-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.clima-card .detalle-label {
+  font-size: 0.8rem;
+  opacity: 0.6;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.clima-card .detalle-valor {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.error-mensaje {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
